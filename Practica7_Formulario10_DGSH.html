@@ -1,0 +1,44 @@
+<!--NOMBRE: Dania Graciela Silva Heredia>
+<!--NO. CONTROL: 2430805128  0665>
+<!--GRADO Y GRUPO: 5 º I-->
+
+<!DOCTYPE html> <!--Indica la versión de HTML que se usará-->
+<html lang="en"> <!--Configura el idioma de la página-->
+
+	<head> <!--Abre el encabezado de la página-->
+		<meta charset="UTF-8"> <!--Permite usar caracteres especiales-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Ajusta la página a cualquier pantalla-->
+		<title>Formularios en HTML</title> <!--Título de la pestaña de la página-->
+
+		<!-- Libreria de iconos en linea -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+	</head> <!--Cierra el encabezado-->
+
+	<body> <!--Abre el cuerpo de la página-->
+		<h2>Formularios con agrupamiento</h2> <!--Título grande-->
+		<form action="" method="post"> <!--Crea un formulario-->
+			<fieldset> <!--Agrupa controles y campos dentro de un formulario-->
+				<legend>Datos personales</legend> <!--Le pone títulos a un grupo de campos dentro de un formulario-->
+				Nombre y apellido: <!--Texto-->
+				<input type="text" name="nombre_apellido"><br> <!--Permite ingresar datos y hace un salto de línea-->
+				Documento valido: <!--Texto-->
+				<input type="file" name="documento"><br> <!--Permite ingresar datos y hace un salto de línea-->
+				Fecha de nacimiento: <!--Texto-->
+				<input type="date" name="fecha_nacimiento"> <!--Permite ingresar datos-->
+			</fieldset> <!--Cierra el grupo de controles y campos del formulario-->
+
+			<fieldset> <!--Agrupa controles y campos dentro de un formulario-->
+				<legend>Datos de estudio:</legend> <!--Le pone títulos a un grupo de campos dentro de un formulario-->
+				Nombre de la escuela: <!--Texto-->
+				<input type="text" name="escuela"><br> <!--Permite ingresar datos y hace un salto de línea-->
+				Certificado valido: <!--Texto-->
+				<input type="file" name="certificado"><br> <!--Permite ingresar datos y hace un salto de línea-->
+				Fecha de egreso: <!--Texto-->
+				<input type="date" name="fecha_egreso"> <!--Permite ingresar datos-->
+			</fieldset> <!--Cierra el grupo de controles y campos del formulario-->
+			<br> <!--Salto de línea-->
+			<button type="submit">Enviar <i class="fa-regular fa-paper-plane"></i> </button> <!--Crea un botón-->
+			<button type="reset">Borrar <i class="fa fa-trash"></i></button> <!--Crea un botón-->
+		</form> <!--Cierra el formulario-->
+	</body> <!--Cierra el cuerpo de la página-->
+</html> <!--Cierra todo el documento HTML-->
